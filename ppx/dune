@@ -1,0 +1,11 @@
+(library
+ (name ppx_sorting_animation)
+ (kind ppx_rewriter)
+ (libraries ppxlib str)
+ (preprocess
+  (pps ppxlib.metaquot)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A -w -32))))

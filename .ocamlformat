@@ -1,0 +1,9 @@
+version=0.27.0
+break-cases=fit-or-vertical
+profile=janestreet
+break-separators=after
+let-binding-spacing=sparse
+single-case=compact
+parens-tuple=always
+if-then-else=fit-or-vertical
+margin=100

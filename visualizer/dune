@@ -1,0 +1,8 @@
+(library
+ (name visualizer)
+ (libraries unix str))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A -w -32))))

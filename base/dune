@@ -1,0 +1,10 @@
+(library
+ (name base)
+ (libraries visualizer)
+ (preprocess
+  (pps ppx_sorting_animation)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A -w -32 -w -39))))
